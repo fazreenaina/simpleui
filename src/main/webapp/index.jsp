@@ -6,7 +6,6 @@
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Manage Books</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto|Varela+Round">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
@@ -312,12 +311,13 @@
 
 </head>
 <body>
+<!--
 <h1><%= "Hello World!" %>
 </h1>
 <span>THIS IS LIBRARY MANAGEMENT SYSTEM</span>
 <span>second text</span>
 <br/>
-<a href="hello-servlet">Hello Servlet</a>
+<a href="hello-servlet">Hello Servlet</a>!-->
 <!--NAVIGATION BAR !-->
 <div class="topnav">
     <a class="active" href="#home">Home</a>

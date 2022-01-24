@@ -30,7 +30,7 @@ public class HelloServlet extends HttpServlet {
 
             Statement stmt = conn.createStatement();
 
-            ResultSet rs = stmt.executeQuery("SELECT * FROM account");
+            ResultSet rs = stmt.executeQuery("SELECT * FROM student");
 
             int count = 0;
 

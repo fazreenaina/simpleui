@@ -13,6 +13,8 @@ public class Postgres {
 
         try
         {
+            class.forName("org.postgresql.Driver");
+
             URI dbUri = null;
             if(System.getenv("DATABASE_URL") != null)
             {

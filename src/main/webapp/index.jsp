@@ -376,10 +376,10 @@
                 </tr>
                 <tr>
                     <td>
-									<span class="custom-checkbox">
-										<input type="checkbox" id="checkbox2" name="options[]" value="1">
-										<label for="checkbox2"></label>
-									</span>
+                        <span class="custom-checkbox">
+                            <input type="checkbox" id="checkbox2" name="options[]" value="1">
+                            <label for="checkbox2"></label>
+                        </span>
                     </td>
                     <td>Abu Ali</td>
                     <td>I AM A BOOK</td>

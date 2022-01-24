@@ -38,7 +38,7 @@ public class Postgres {
 
     public static Connection getConnection(){
         try{
-            if (conn == null || !conn.isClosed())
+            if (conn == null || conn.isClosed())
             {
                 //initialize db
                 initDb();
@@ -54,7 +54,7 @@ public class Postgres {
     public static void closeConnection()
     {
         try{
-            if(conn.isClosed() || conn != null)
+            if(!conn.isClosed() || conn != null)
             {
                 conn.close();
             }

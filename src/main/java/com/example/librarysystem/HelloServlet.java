@@ -32,7 +32,7 @@ public class HelloServlet extends HttpServlet {
 
             ResultSet rs = stmt.executeQuery("SELECT * FROM account");
 
-            count = 0;
+            int count = 0;
 
             while(rs.next()){
                 id.add(rs.getInt(1));
